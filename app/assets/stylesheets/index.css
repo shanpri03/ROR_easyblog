@@ -1,7 +1,40 @@
+body{
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF8KNHxZ2KhHdazJ8SzG1x1_qnDczWbjpD-A&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1
 {
+text-align: center;
 color: brown;
 }
+h2
+{
+    text-align: center;
+color: crimson;
+}
+h3
+{
+    text-align: center;
+color: darkgreen
+}
+h4
+{
+    text-align: center;
+color: cyan
+}
+h5
+{
+    text-align: center;
+color: darkgreen;
+}
+h6
+{
+font-weight:bolder;
+font-size: large;
+color: blue;
+}
 p{
-    color: blue;
+    color: black;
 }

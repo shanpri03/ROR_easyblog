@@ -1,7 +1,9 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Movies</h1>
-
+<h1>Welcome to Movies upload page</h1>
+<h3>Our all-in-one platform turns your ideas into action. Make, manage, and share movie details that move your audience.</h3>
+<h3>One platform. All your movie needs.</h3>
+<h6>Find the movie details here</h6>
 <div id="movies">
   <% @movies.each do |movie| %>
     <%= render movie %>
@@ -11,4 +13,4 @@
   <% end %>
 </div>
 
-<%= link_to "New movie", new_movie_path %>
+<%= link_to "Add a New movie", new_movie_path %>
